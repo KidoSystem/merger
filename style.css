@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1e1e2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    border: 1px solid white;
+    height: 80vh;
+    width: 85%;
+    padding: 10px 20px;
+    position: relative;
+}
+
+#first__block {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#third__block {
+    position: absolute;
+    top: 30%;
+    right: 25%;
+}
+
+.first__block-field {
+    position: absolute;
+}
+
+.first__block-box {
+    position: absolute;
+}
+
+.field__svg {
+    position: absolute;
+    z-index: 1;
+}
+
+.box__svg {
+    position: absolute;
+}
